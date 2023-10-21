@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnlineMultiplayerGameActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TvTurn"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Turn"
+        android:padding="4dp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/green"
+        android:textSize="15sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Player 1"
+            android:textAlignment="center"
+            android:padding="4dp"
+            android:layout_margin="4dp"
+            android:textColor="@color/green"
+            android:layout_gravity="center"
+            android:id="@+id/TvPlayer1"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Player 2"
+            android:textAlignment="center"
+            android:padding="4dp"
+            android:layout_margin="4dp"
+            android:textColor="@color/green"
+            android:layout_gravity="center"
+            android:id="@+id/TVPlayer2"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:weightSum="3"
+        >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:id="@+id/btnBox1"
+            android:layout_margin="5dp"
+            android:textSize="25sp"
+            android:onClick="buttonClick"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="100dp"
+            android:id="@+id/btnBox2"
+            android:layout_margin="5dp"
+            android:textSize="25sp"
+            android:onClick="buttonClick"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="100dp"
+            android:id="@+id/btnBox3"
+            android:layout_margin="5dp"
+            android:textSize="25sp"
+            android:onClick="buttonClick"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_gravity="center"
+        android:weightSum="3"
+        >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:id="@+id/btnBox4"
+            android:textSize="25sp"
+            android:layout_margin="5dp"
+            android:onClick="buttonClick"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="100dp"
+            android:id="@+id/btnBox5"
+            android:layout_margin="5dp"
+            android:textSize="25sp"
+            android:onClick="buttonClick"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="100dp"
+            android:id="@+id/btnBox6"
+            android:textSize="25sp"
+            android:layout_margin="5dp"
+            android:onClick="buttonClick"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_gravity="center"
+        android:weightSum="3"
+        >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:id="@+id/btnBox7"
+            android:textSize="25sp"
+            android:layout_margin="5dp"
+            android:onClick="buttonClick"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="100dp"
+            android:id="@+id/btnBox8"
+            android:layout_margin="5dp"
+            android:textSize="25sp"
+            android:onClick="buttonClick"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="100dp"
+            android:id="@+id/btnBox9"
+            android:textSize="25sp"
+            android:layout_margin="5dp"
+            android:onClick="buttonClick"
+
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnReset"/>
+
+</LinearLayout>

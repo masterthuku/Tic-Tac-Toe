@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MultiPlayerSelection">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Online or Offline"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:id="@+id/TvHead"
+        android:layout_marginTop="50dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Online"
+        android:textAllCaps="false"
+        android:id="@+id/btnOnline"
+        android:layout_below="@id/TvHead"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Offline"
+        android:textAllCaps="false"
+        android:id="@+id/btnOffline"
+        android:layout_below="@id/btnOnline"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+</RelativeLayout>
